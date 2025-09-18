@@ -87,3 +87,6 @@ def arxiv_search(topic: str) -> list[dict]:
         raise ValueError(f"No papers found for topic: {topic}")
     print(f"Found {len(papers['entries'])} papers about {topic}")
     return papers
+
+# topic = "Prompt Engineering"
+# print(arxiv_search(topic))
