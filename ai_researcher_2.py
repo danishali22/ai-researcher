@@ -53,7 +53,7 @@ workflow.add_edge("tools", "agent")
 
 from langgraph.checkpoint.memory import MemorySaver
 checkpointer = MemorySaver()
-config = {"configurable": {"thread_id": 222222}}
+config = {"configurable": {"thread_id": 1111}}
 
 graph = workflow.compile(checkpointer=checkpointer)
 
