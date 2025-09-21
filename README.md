@@ -22,8 +22,7 @@ An autonomous AI system designed to help researchers by discovering papers, extr
 | Paper Retrieval      | arXiv API, Semantic Scholar   |
 | AI & Reasoning       | LangGraph, Google GenAI, Groq |
 | PDF & LaTeX Handling | PyLaTeX, pdflatex             |
-| Frontend UI          | Gradio / Streamlit            |
-| Memory & Storage     | Vector DB + Local FS          |
+| Frontend UI          | Streamlit                     |
 | Environment Handling | python-dotenv                 |
 | Runtime & Packaging  | uv                            |
 
@@ -106,3 +105,4 @@ python frontend.py
 If you find this project interesting or want to collaborate, feel free to open an issue or connect!
 
 **GitHub:** danishali22
+
